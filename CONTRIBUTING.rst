@@ -10,7 +10,7 @@ be merged into the upstream repository.
 
 Most of them should be just general best practises and not be
 surprising. Don't worry if you find them too complicated. It is OK
-leave the final touch to someone else.
+to leave the final touch to someone else.
 
 Writing code for Boxes.py
 -------------------------
@@ -37,9 +37,9 @@ or are going to finish it on your own.
 * Before submitting a pull request intended to go upstream have clean patches that are self contained and error free
 
   * Re-order and squash patches with *git rebase -i*
-  * The patches should containing meaningful changes and not (necessarily) reflect how the code was created
+  * The patches should contain meaningful changes and not (necessarily) reflect how the code was created
   * Rebase your branch to the current master branch
-  * Be prepared that your code may get reworked before being merged upstream
+  * Understand that your code may get reworked before being merged upstream
 
 * Submit a pull request in GitHub based on your feature branch
 
@@ -74,15 +74,15 @@ Boxes.py comes with Sphinx based documentation that is in large parts
 generated from the doc strings in the code. Nevertheless documentation
 has a tendency to get outdated. If you encounter outdated pieces of
 documentation feel free to submit a pull request or open a ticket
-pointing out what should be changed or even suggesting a better text.
+pointing out what should be changed or even suggesting better text.
 
 To check your changes docs need to be build with *make html* in
 *documentation/src*. This places the compiled documentation in
 *documentation/build/html*. You need to have *sphinx* installed for
 this to work.
 
-The online documentation gets build and updated automatically by the Travis CI
-as soon as the changes makes it into the GitHub master branch.
+The online documentation gets built and updated automatically by the
+Travis CI as soon as the changes makes it into the GitHub master branch.
 
 Improving the User Interface
 ----------------------------
@@ -91,7 +91,7 @@ Coming up with good names and good descriptions is hard. Often writing
 a new generator is much easier than coming up with a good name for it
 and its arguments. If you think something deserves a better name or
 description and you can come up with one please don't hesitate to open
-a ticket. It is this small things that make something like Boxes.py
+a ticket. It is these small things that make something like Boxes.py
 easy or hard to use.
 
 There is also an - often empty - space for a longer text for each
@@ -116,6 +116,6 @@ Suggesting new generators or features
 
 If you have an idea for a new generator or feature please open a
 ticket. Give some short rational how or where you would use such a
-thing. Try to give a precise description how it should look like and
+thing. Try to give a precise description as to how it should look and
 which features and details are important. The less is left open the
 easier it is to implement. You can add an "enhancement" tag.
